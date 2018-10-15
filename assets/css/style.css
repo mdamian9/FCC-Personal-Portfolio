@@ -31,9 +31,20 @@ body {
 }
 
 #welcome-section {
-    margin-top: 55px;
     height: 100vh;
     overflow: auto;
+}
+
+.exact-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#projects {
+    display: flex;
+    margin: 0 auto;
 }
 
 .project-tile {
