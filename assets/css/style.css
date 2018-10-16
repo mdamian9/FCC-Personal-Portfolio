@@ -43,10 +43,12 @@ body {
 }
 
 #projects {
-    display: flex;
+    width: 50%;
     margin: 0 auto;
+    display: flex;
+    background: teal;
 }
 
 .project-tile {
-
+    margin: 0 auto;
 }
