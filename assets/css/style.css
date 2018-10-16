@@ -43,12 +43,25 @@ body {
 }
 
 #projects {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     background: teal;
+    padding: 20px;
 }
 
 .project-tile {
-    margin: 0 auto;
+    margin: 0px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar {
+        background-color: darkgrey;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #navbar {
+        background-color: black;
+    }
 }
