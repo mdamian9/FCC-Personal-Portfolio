@@ -7,6 +7,69 @@
         Personal Portfolio
     </title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        #navbar {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            background-color: black;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+
+        #navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        #navbar li {
+            padding: 0 0.5rem;
+        }
+
+        #welcome-section {
+            height: 100vh;
+            overflow: auto;
+        }
+
+        .exact-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #projects {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            background: teal;
+            padding: 20px;
+        }
+
+        .project-tile {
+            margin: 0px 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            #navbar {
+                background-color: darkgrey;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +80,7 @@
             <ul>
                 <li><a href="#navbar">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li>Link 3</li>
+                <li><a href="#links">Links</a></li>
             </ul>
         </nav>
 
@@ -55,7 +118,7 @@
         </div>
         <br>
 
-        <div class="center-text" id="footer">
+        <div class="center-text" id="links">
             <a id="profile-link" href="https://github.com/mdamian9" target="_blank">https://github.com/mdamian9</a>
         </div>
 
